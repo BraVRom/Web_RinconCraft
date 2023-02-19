@@ -1,0 +1,86 @@
+<!-- Brandon 3AsirN -->
+<!-- Proyecto Final Administración de sistemas informáticos en red  -->
+
+<!-- Vídeo de fondo en vez de imagen estática -->
+<!-- <video autoplay="" muted="" loop="" autobuffer="" id="fullscreenVideo">
+	<source src="img/video.mp4" type="video/mp4">
+</video> -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>RincónCraft Server</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="RinconCraft es un server con soporte multiplataforma. Puedes entrar con 'play.rinconcraft.es'.">
+	<meta property="og:title" content="RinconCraft - Inicio">
+	<meta property="og:site_name" content="RinconCraft">
+	<meta property="og:description" content="RinconCraft es un server con soporte multiplataforma. Puedes entrar con 'play.rinconcraft.es'.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+<!-- Favicon -->
+	<link rel="icon" type="img/" href="img\favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="img/" href="img\favicon-32x32.png" sizes="32x32">
+<!-- Fuentes y estilos  -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+	<div class="container">
+		<div class="logo">
+			<img src="img/logo.png" alt="Logo RincónCraft">
+		</div>
+
+		<div class="items">
+		<!-- Registro de usuarios, no lleva a nada.-->
+			<a href="#" class="item forums">
+			<div>
+				<img src="img/registro.png" alt="Icono de registro de usuario" class="img">
+				<p class="subtitle">Únete a nosotros</p>
+				<p class="title">Registrarse</p>
+			</div>
+			</a>
+
+		<!-- Este botón nos redirigirá a la página de Tebex. -->
+			<a href="https://rinconcraft.tebex.io/" class="item store">
+			<div>
+				<img src="img/store.png" alt="Icono de tienda" class="img">
+				<p class="subtitle">Artículos y mejoras</p>
+				<p class="title">Tienda</p>
+			</div>
+			</a>
+
+		<!-- Botón para ir al mapa online del plugin Dynmap. -->
+			<a href="http://192.168.1.45:8123/" class="item vote">
+			<div>
+				<img src="img/mapa.png" alt="Icono de mapa" class="img">
+				<p class="subtitle">Ubícate</p>
+				<p class="title">Mapa</p>
+			</div>
+			</a>
+
+		<!-- Este botón nos redirigirá a la página de contacto. -->
+				<a href="#" class="item vote">
+					<div>
+						<img src="img/contacto.png" alt="Icono de contacto" class="img">
+						<p class="subtitle">Escríbenos</p>
+						<p class="title">Contacto</p>
+					</div>
+					</a>
+		</div>
+
+		<div class="playercount">
+			<!-- Con este apartado podemos poner cuántos usuarios hay conectados en el servidor -->
+			<!-- Hay que establecer puertos y la ip del servidor (pública) -->
+			<p>Juega con otros <span class="sip" data-ip="mc.hypixel.net" data-port="25565">
+			</span> jugadores en <span class="ip">play.rinconcraft.es</span></p>
+		</div>
+	</div>
+	
+<!-- Distintos scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/firefly.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
